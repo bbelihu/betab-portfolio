@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/betab_portfolio/static/css/main.cc06be1a.css",
-    "main.js": "/betab_portfolio/static/js/main.02916adf.js",
+    "main.js": "/betab_portfolio/static/js/main.7bb20c54.js",
     "static/js/787.4f28c5c9.chunk.js": "/betab_portfolio/static/js/787.4f28c5c9.chunk.js",
     "static/media/myprofile2.png": "/betab_portfolio/static/media/myprofile2.c5bb0730f3cd0c01c6b5.png",
     "static/media/HelveticaNeue.otf": "/betab_portfolio/static/media/HelveticaNeue.473d47863c29558734be.otf",
@@ -9,11 +9,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/betab_portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/betab_portfolio/index.html",
     "main.cc06be1a.css.map": "/betab_portfolio/static/css/main.cc06be1a.css.map",
-    "main.02916adf.js.map": "/betab_portfolio/static/js/main.02916adf.js.map",
+    "main.7bb20c54.js.map": "/betab_portfolio/static/js/main.7bb20c54.js.map",
     "787.4f28c5c9.chunk.js.map": "/betab_portfolio/static/js/787.4f28c5c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc06be1a.css",
-    "static/js/main.02916adf.js"
+    "static/js/main.7bb20c54.js"
   ]
 }
