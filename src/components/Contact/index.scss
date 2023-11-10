@@ -1,0 +1,113 @@
+.contact-form{
+  width:100%;
+  margin-top: 20px;
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeInUp 2s 2s;
+      animation-fill-mode: forwards;
+      clear: both;
+    
+  }
+  li.half{
+    width: 49%;
+    margin-left: 2%;
+    float: left;
+    clear: none;
+    &:first-child {
+      margin-left: 0;
+    }
+
+  }
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'] {
+    width: 100%;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(250, 250, 250);
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  textarea {
+    width: 100%;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    min-height: 150px;
+    box-sizing: border-box;
+  }
+  .flat-button {
+    color: #ffd700;
+    background:0 0;
+    font:11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border:1px solid #ffd700;
+    float: right;
+  }
+}
+.info-location {
+  position: absolute;
+  background-color: black;
+  top:7px;
+  left: 100%;
+  z-index:999999;
+  color:white;
+  width: 267px;
+  padding: 20px;
+  font-family: 'Helvetica';
+  font-size: 17px;
+  font-weight: 300;
+  opacity:0;
+  animation: fadeIn 2s 2.5s;
+  animation-fill-mode: forwards;
+  span {
+    font-size: 16px;
+    display: block;
+    padding-top: 20px;
+    color: #ffd700;
+
+  }
+}
+.map-container{
+  position: absolute;
+  background: rgba(8,253,216,0.1);
+  top:-20px;
+  left: 105%;
+  width: 200%;
+  height: 105%;
+  
+}
+.fidget{
+  display: block;
+  position: absolute;
+  left:0;
+  right: 0;
+  margin: auto;
+  top:0;
+  bottom: 0;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0;
+  animation: backInRight 1s 1.2s;
+  animation-fill-mode: forwards;
+}
+
