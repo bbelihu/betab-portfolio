@@ -9,13 +9,13 @@ const Sidebar = () => {
   const linkedinProfile = 'https://www.linkedin.com/in/betab-belihu-216b74160';
   const githubProfile = 'https://github.com/bbelihu';
   return <div className='nav-bar'>
-    <NavLink exact="true" activeclassname="active" to="/betab_portfolio" className='nav-link' id='home'>
+    <NavLink exact="true" activeclassname="active" to="/" className='nav-link' id='home'>
       <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
     </NavLink>
-    <NavLink exact="true" activeclassname="active" to="/betab_portfolio/about" className='nav-link' id='about'>
+    <NavLink exact="true" activeclassname="active" to="/about" className='nav-link' id='about'>
       <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
     </NavLink>
-    <NavLink exact="true" activeclassname="active" to="/betab_portfolio/contact" className='nav-link' id='contact'>
+    <NavLink exact="true" activeclassname="active" to="/contact" className='nav-link' id='contact'>
       <FontAwesomeIcon icon={faContactCard} color="#4d4d4e" />
     </NavLink>
     <ul>
