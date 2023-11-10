@@ -29,7 +29,7 @@ const Home = () => {
             <AnimatedLetters letterClass={letterClass} strArray={jobTitle} idx={21} />
           </h1>
           <h2>Software Developer that has done projects using javascript with angular and React, .net, C#, java</h2>
-          <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+          <Link to="/betab_portfolio/contact" className='flat-button'>CONTACT ME</Link>
         </div>
       </div>
       <FidgetSpinner backgroundColor="yellow" wrapperClass="fidget" />

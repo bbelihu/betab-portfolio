@@ -30,8 +30,6 @@ const Contact = () => {
           window.location.reload(false)
         }, 5000)
       })
-    // setSuccess(false);
-    // setError(false);
   }
   useEffect(() => {
     setTimeout(() => {
@@ -56,7 +54,7 @@ const Contact = () => {
                 <input type="email" name="email" placeholder="Email" required />
               </li>
               <li>
-                <input type="tel" name="number" placeholder="888 888 8888" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12" title="Ten digits code" required />
+                <input type="tel" name="number" placeholder="888 888 8888" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" title="Ten digits code" required />
               </li>
               <li>
                 <input type="text" name="subject" placeholder="Subject" required />
@@ -68,19 +66,15 @@ const Contact = () => {
                 <input type="submit" className="flat-button" value="Submit" />
               </li>
             </form>
-            {success ? <>
-              <Alert severity="success">
-                <AlertTitle>Success</AlertTitle>
-                Your message was sent I will be in contact with you shortly!
-              </Alert>
-            </> :
+            {success ? <Alert severity="success">
+              <AlertTitle>Success</AlertTitle>
+              Your message was sent I will be in contact with you shortly!
+            </Alert> :
               <></>}
-            {error ? <>
-              <Alert severity="error">
-                <AlertTitle>Error</AlertTitle>
-                Something went wrong sorry! If you want to reach out, here is my number 2028536681
-              </Alert>
-            </> :
+            {error ? <Alert severity="error">
+              <AlertTitle>Error</AlertTitle>
+              Something went wrong sorry! If you want to reach out, here is my number 2028536681
+            </Alert> :
               <></>}
           </div>
           <div className="info-location">
